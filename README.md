@@ -7,6 +7,9 @@ Margins:
 Picture Borders
 H1, H2, H3 
 
+** For content related to each page, upload the file with "_YourPage" at the end as well as initials, e.g:
+"Thumbnail_LinksPage_AT.jpg" ** 
+
 Home - AJ 
 Event - Alex 
 Links - Brandon
