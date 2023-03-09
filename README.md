@@ -10,14 +10,7 @@ H1, H2, H3
 ** For content related to each page, upload the file with "_YourPage" at the end as well as initials, e.g:
 "Thumbnail_LinksPage_AT.jpg" ** 
 
-Home - AJ 
-Event - Alex 
-Links - Brandon
-Gallery - Lior 
-Sign Up - Lior
-About Us - Elias 
-
-Home // Repository 
+Home // Repository // AJ 
 - Title 
 - Links to other in text pages (Event, Links, Gallery, Sign Up, About Us) 
 - Dashboard 
@@ -26,12 +19,12 @@ Home // Repository
 - Announcements
 - Social Media Links 
 
-Events // Repository 
+Events // Repository // Alex
 
-Links // Repository 
+Links // Repository // Brandon
 
-Gallery // Repository
+Gallery // Repository // Lior 
 
-Sign Up // Repository
+Sign Up // Repository // Lior 
 
-About Us // Repository
+About Us // Repository // Elias
