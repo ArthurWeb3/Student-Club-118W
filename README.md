@@ -18,6 +18,8 @@ Home // Repository // AJ
 - Pictures 
 - Announcements
 - Social Media Links 
+(Mar. 13 Edits):
+- Navbar Prototype 
 
 Events // Repository // Alex
 
