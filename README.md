@@ -10,16 +10,10 @@ H1, H2, H3
 ** For content related to each page, upload the file with "_YourPage" at the end as well as initials, e.g:
 "Thumbnail_LinksPage_AT.jpg" ** 
 
-Home // Repository // AJ 
-- Title 
-- Links to other in text pages (Event, Links, Gallery, Sign Up, About Us) 
-- Dashboard 
-- Logo
-- Pictures 
-- Announcements
-- Social Media Links 
-(Mar. 13 Edits):
-- Navbar Prototype 
+Home // Repository // AJ <br>
+- Title, Links to other in text pages (Event, Links, Gallery, Sign Up, About Us), Dashboard, Logo, Pictures, Announcements, Social Media Links  
+**(Mar. 13 Edits):
+Navbar Prototype 
 
 Events // Repository // Alex
 
