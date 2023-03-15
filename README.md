@@ -13,7 +13,9 @@ H1, H2, H3
 Home // Repository // AJ <br>
 - Title, Links to other in text pages (Event, Links, Gallery, Sign Up, About Us), Dashboard, Logo, Pictures, Announcements, Social Media Links  
 **(Mar. 13 Edits):
-Navbar Prototype 
+Navbar Prototype  
+**(Mar. 15 Edits):
+Added Navbar to all files + stylesheet.css
 
 Events // Repository // Alex
 
