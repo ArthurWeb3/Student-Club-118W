@@ -1,3 +1,4 @@
+/* Main Font */
 @font-face {
     font-family: 'Futura';
     src: url('Futura-Bold.woff2') format('woff2'),
@@ -7,7 +8,7 @@
     font-style: normal;
     font-display: swap;
 }
-
+/* Bold */
 @font-face {
     font-family: 'Futura Bk';
     src: url('Futura-Book.woff2') format('woff2'),
@@ -17,7 +18,7 @@
     font-style: normal;
     font-display: swap;
 }
-
+/* Main Font, rounded edges */
 @font-face {
     font-family: 'a_FuturaRound';
     src: url('AFuturaRound.woff2') format('woff2'),
