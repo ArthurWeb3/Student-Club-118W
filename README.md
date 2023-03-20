@@ -17,7 +17,7 @@ Navbar Prototype
 **(Mar. 15 Edits):
 Added Navbar to all files + stylesheet.css
 
-Events // Repository // Alex
+Events // Repository // Alex <br>
 **(Mar. 18):
 Added a calendar html system with ability to add events.
 **(Mar. 20):
