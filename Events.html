@@ -9,19 +9,19 @@
     <link rel="icon" type="image/png" href="sjsu_disney.png" sizes="32x32">
     <link rel="stylesheet" href="stylesheet.css">
 
-    <!-- Required meta tags for Calendar-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="events_files/fonts/icomoon/style.css">
-    <link href='events_files_al/fullcalendar/packages/core/main.css' rel='stylesheet' />
-    <link href='events_files_al/fullcalendar/packages/daygrid/main.css' rel='stylesheet' />
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="events_files_al/css/bootstrap.min.css">
-    <!-- Style -->
-    <link rel="stylesheet" href="events_files_al/css/style.css">
-    <!-- End of Calendar -->
+     <!-- Required meta tags for Calendar-->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="events_files/fonts/icomoon/style.css">
+     <link href='events_files/fullcalendar/packages/core/main.css' rel='stylesheet' />
+     <link href='events_files/fullcalendar/packages/daygrid/main.css' rel='stylesheet' />
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="events_files/css/bootstrap.min.css">
+     <!-- Style -->
+     <link rel="stylesheet" href="events_files/css/style.css">
+     <!-- End of Calendar -->
 
     <style>
     h1 {
@@ -48,7 +48,7 @@
   <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">SJSU Disney Club</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -77,15 +77,15 @@
       <div id='calendar-container'>
     <div id='calendar'></div>
   </div>
-    <script src="events_files_al/"></script>
-    <script src="events_files_al/js/popper.min.js"></script>
-    <script src="events_files_al/js/bootstrap.min.js"></script>
+    <script src="events_files/js/jquery-3.3.1.min.js"></script>
+    <script src="events_files/js/popper.min.js"></script>
+    <script src="events_files/js/bootstrap.min.js"></script>
 
-    <script src='events_files_al/fullcalendar/packages/core/main.js'></script>
-    <script src='events_files_al/fullcalendar/packages/interaction/main.js'></script>
-    <script src='events_files_al/fullcalendar/packages/daygrid/main.js'></script>
-    <script src='events_files_al/fullcalendar/packages/timegrid/main.js'></script>
-    <script src='events_files_al/fullcalendar/packages/list/main.js'></script>
+    <script src='events_files/fullcalendar/packages/core/main.js'></script>
+    <script src='events_files/fullcalendar/packages/interaction/main.js'></script>
+    <script src='events_files/fullcalendar/packages/daygrid/main.js'></script>
+    <script src='events_files/fullcalendar/packages/timegrid/main.js'></script>
+    <script src='events_files/fullcalendar/packages/list/main.js'></script>
 
     <script>
       document.addEventListener('DOMContentLoaded', function() {
@@ -99,26 +99,37 @@
         center: 'title',
       },
       defaultView: 'dayGridMonth',
-      defaultDate: '2023-03-12',
+      defaultDate: '2023-04-01',
       navLinks: false, // can click day/week names to navigate views
       editable: false,
       eventLimit: true, // allow "more" link when too many events
       events: [
         {
-          title: 'Movie: Toy Story (6:30PM-7:30PM)',
-          start: '2023-03-03',
-          end: '2023-03-03',
+          title: 'Movie Night: Toy Story',
+          start: '2023-04-07',
+          end: '2023-04-07',
         },
         {
-          title: 'Club Meeting (3:00PM-4:00PM)',
-          start: '2023-03-06',
-          end: '2023-03-06',
+          title: 'Club Meeting',
+          start: '2023-04-10',
+          end: '2023-04-10',
         },
         {
           title: 'Disney Land Trip',
-          start: '2023-03-17',
-          end: '2023-03-20',
+          start: '2023-04-14',
+          end: '2023-04-17',
         },
+        {
+          title: 'Movie Night: Monster Inc.',
+          start: '2023-04-21',
+          end: '2023-04-21',
+        },
+        {
+          title: 'Movie Night: The Incredibles',
+          start: '2023-04-22',
+          end: '2023-04-22',
+        },
+  
 
       ]
     });
@@ -128,7 +139,18 @@
 
     </script>
 
-    <script src="events_files_al/js/main.js"></script>
+    <script src="events_files/js/main.js"></script>
 
-  <h2>Test message to put stuff underneath calendar</h2>
-  </body>
+  <!--Text Box #1-->
+  <div class = "textbox1">
+    <div class="textbox1">
+    <h1>Event Details</h1>
+        <ul>
+            <li> <b>[April 7, 2023]</b> Movie Night for Toy Story begins at 6:00 PM - 7:30 PM</li>
+            <li> <b>[April 10, 2023]</b> Student Club meeting begins at 5:40 PM at the Student Union</li>
+            <li> <b>[April 14-16, 2023]</b> Club trip to Disney Land. On April 14, please arrive to the SJSU parking lot by 9:00 AM for the shuttle bus.</li>
+            <li> <b>[April 21, 2023]</b> Movie Night for Monster Inc. begins at 7:00 PM - 8:30 PM</li>
+            <li> <b>[April 22, 2023]</b> Movie Night for The Incredibles begins at 7:00 PM - 8:15 PM</li>
+        </ul>
+  </div>
+
