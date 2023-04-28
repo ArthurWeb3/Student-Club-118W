@@ -34,7 +34,7 @@ Sign Up // Repository // Lior <br>
 Added Signup.html with css and JS<br>
 Added another RegisterforSignup.html a page users will be directed to after signing up<br>
 Added Signup.js for using the database<br>
-Created real-time database in firebase.google<br>
+Created real-time database in firebase.google- access via my account (Lior)<br>
 Added to the database only Lior's and AJ's info to test, will need to add the rest of the members' and potentially the professor's info to it<br> 
 
 About Us // Repository // Elias
