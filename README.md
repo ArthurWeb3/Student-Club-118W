@@ -27,7 +27,10 @@ Updated event.html to include a textbox underneath the calendar, updated style.c
 
 Links // Repository // Brandon
 
-Gallery // Repository // Lior 
+Gallery // Repository // Lior <br>
+** (May 1):<br>
+Added gallery.html with css adn JS<br>
+Added gallery folder with the 4 pictures I used
 
 Sign Up // Repository // Lior <br>
 **(Apr. 27):<br>
