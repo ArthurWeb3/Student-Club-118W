@@ -23,7 +23,10 @@ Added a calendar html/javascript system with ability to add events. <br>
 **(Mar. 20):
 Change "event_files" folder to "event_files_al" to match project format. Updated events.html to match new href. <br>
 **(Apr. 2):
-Updated event.html to include a textbox underneath the calendar, updated style.css to give that textbox a design. 
+Updated event.html to include a textbox underneath the calendar, updated style.css to give that textbox a design. <br>
+**(May. 1):
+Updated event.html default view to May, added new events for the months and kept April's events to showcase the calendar's ability to retain old events. <br>
+To edit calendar's colors, To edit Calendar color's, go to event_files_al/fullcalendar\packages/core/main.css , around line 582 is where you can start changing the colors! <br>
 
 Links // Repository // Brandon
 
