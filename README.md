@@ -26,7 +26,7 @@ Change "event_files" folder to "event_files_al" to match project format. Updated
 Updated event.html to include a textbox underneath the calendar, updated style.css to give that textbox a design. <br>
 **(May. 1): <br>
 Updated event.html default view to May, added new events for the months and kept April's events to showcase the calendar's ability to retain old events. <br>
-To edit calendar's colors, To edit Calendar color's, go to event_files_al/fullcalendar\packages/core/main.css , around line 582 is where you can start changing the colors! <br>
+To edit Calendar color's, go to event_files_al/fullcalendar\packages/core/main.css , around line 582 is where you can start changing the colors! <br>
 
 Links // Repository // Brandon
 
