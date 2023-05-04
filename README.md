@@ -20,10 +20,13 @@ Added Navbar to all files + stylesheet.css
 Events // Repository // Alex <br>
 **(Mar. 18): <br>
 Added a calendar html/javascript system with ability to add events. <br>
+<br>
 **(Mar. 20): <br>
 Change "event_files" folder to "event_files_al" to match project format. Updated events.html to match new href. <br>
+<br>
 **(Apr. 2): <br>
 Updated event.html to include a textbox underneath the calendar, updated style.css to give that textbox a design. <br>
+<br>
 **(May. 1): <br>
 Updated event.html default view to May, added new events for the months and kept April's events to showcase the calendar's ability to retain old events. <br>
 To edit Calendar color's, go to event_files_al/fullcalendar\packages/core/main.css , around line 582 is where you can start changing the colors! <br>
