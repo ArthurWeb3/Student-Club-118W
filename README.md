@@ -19,7 +19,7 @@ Added Navbar to all files + stylesheet.css
 
 Events // Repository // Alex <br>
 **(Mar. 18): <br>
-- Added a calendar html/javascript system with ability to add events. <br>
+Added a calendar html/javascript system with ability to add events. <br>
 <br>
 **(Mar. 20): <br>
 Change "event_files" folder to "event_files_al" to match project format. Updated events.html to match new href. <br>
