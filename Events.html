@@ -14,13 +14,10 @@
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="events_files_al/fonts/icomoon/style.css">
-     <link href='events_files_al/fullcalendar/packages/core/main.css' rel='stylesheet' />
-     <link href='events_files_al/fullcalendar/packages/daygrid/main.css' rel='stylesheet' />
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="events_files_al/css/bootstrap.min.css">
+     <!-- Calendar CSS-->
+     <link href='stylesheet.css' rel='stylesheet' />
      <!-- Style -->
-     <link rel="stylesheet" href="events_files_al/css/style.css">
+     <link rel="stylesheet" href="stylesheet.css">
      <!-- End of Calendar -->
 
     <style>
@@ -78,15 +75,15 @@
       <div id='calendar-container'>
     <div id='calendar'></div>
   </div>
-    <script src='events_files_al/fullcalendar/packages/core/main.js'></script>
-    <script src='events_files_al/fullcalendar/packages/daygrid/main.js'></script>
+    <script src='events_files_al/core/main.js'></script>
+    <script src='events_files_al/daygrid/main.js'></script>
     
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
 
 var calendar = new FullCalendar.Calendar(calendarEl, {
-  plugins: [ 'interaction', 'dayGrid', 'timeGrid', 'list' ],
+  plugins: ['dayGrid'],
   height: 'parent',
   header: {
     left: 'prev,next today',
@@ -145,8 +142,8 @@ var calendar = new FullCalendar.Calendar(calendarEl, {
     },
     {
       title: 'Disney World Trip',
-      start: '2023-05-20',
-      end: '2023-05-23',
+      start: '2023-05-26',
+      end: '2023-05-29',
     },
     {
       title: 'Club Meeting',
@@ -155,8 +152,8 @@ var calendar = new FullCalendar.Calendar(calendarEl, {
     },
     {
       title: 'SJSU Final Exam Week',
-      start: '2023-05-15',
-      end: '2023-05-20',
+      start: '2023-05-17',
+      end: '2023-05-26',
     },
 
 
@@ -178,7 +175,7 @@ calendar.render();
         <li> <b>[May 9, 2023]</b> SJSU Disney Club meeting begins at 3:00 PM at the BBC Building. </li>
         <li> <b>[May 10, 2023]</b> Movie Night for Finding Nemo begins at 8:00 PM - 9:30 PM</li>
         <li> <b>[May 12, 2023]</b> Movie Night for Lilo & Stitch begins at 6:00 PM - 7:30 PM</li>
-        <li> <b>[May 15 - 19, 2023]</b> Final Exam Week begins, good luck spartans!</li>
-        <li> <b>[May 20 - 22, 2023]</b> Club trip to Disney World! On May 20, please wait at the SJSU South garage parking lot by 9:00 AM for the shuttle bus. </li>
+        <li> <b>[May 17 - 25, 2023]</b> Final Exam Week begins, good luck spartans!</li>
+        <li> <b>[May 26 - 28, 2023]</b> Club trip to Disney World! On May 26, please wait at the SJSU South garage parking lot by 9:00 AM for the shuttle bus. </li>
     </ul>
 </div>
