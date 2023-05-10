@@ -14,6 +14,11 @@
     }
     body{
         font-family: "Futura", sans-serif;
+        color: white;
+        background-image: url(disney__background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
     }
     td, th {
         border: 1px solid black;
@@ -30,7 +35,7 @@
     }
     </style>
 </head>
-<body>
+  <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">SJSU Disney Club</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,193 +62,162 @@
         </div>
       </nav>
 
-    
-      <!--image gallery -->
-    <div class="container2">
-        <img src="trivia.jpg" alt="Trivia" class="image2">
-        <div class="overlay2">Trivia Night (February 2023)</div>
-    </div>
+      <h2>
+        Photos from our Events:
+      </h2>
 
-    <style>
-        * {box-sizing: border-box}
+<!--image gallery -->
 
-        /* Container needed to position the overlay. Adjust the width as needed */
-        .container2 {
-        width: 409.6px;
-        height: 273px;
-        position: relative;
-        margin: auto;
-        }
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
-        /* Make the image to responsive */
-        .image2 {
-        display: block;
-        width: 409.6px;
-        height: 273px;
-        margin-top: 10px;
-        }
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides">
+    <img src="disneyland1.jpg" style="width:100%">
+    <div class="text">Disneyland Trip (September 2022)</div>
+  </div>
 
-        /* The overlay effect - lays on top of the container and over the image */
-        .overlay2 {
-        position: absolute;
-        bottom: 0;
-        background: rgb(0, 0, 0);
-        background: rgba(0, 0, 0, 0.5); /* Black see-through */
-        color: #f1f1f1;
-        width: 414px;
-        transition: .5s ease;
-        opacity:0;
-        color: white;
-        font-size: 20px;
-        padding: 20px;
-        text-align: center;
-        }
+  <div class="mySlides">
+    <img src="party1.jpg" style="width:100%">
+    <div class="text">Costume Party (Halloween 2022)</div>
+  </div>
 
-        /* When you mouse over the container, fade in the overlay title */
-        .container2:hover .overlay2 {
-        opacity: 1;
-        }
-    </style>
+  <div class="mySlides">
+    <img src="disneyland2.jpg" style="width:100%">
+    <div class="text">Disneyland Trip (September 2022)</div>
+  </div>
 
-    <div class="container1">
-        <img src="party1.jpg" alt="Party" class="image1">
-        <div class="overlay1">Costume Party (Halloween 2022)</div>
-    </div>
+  <div class="mySlides">
+    <img src="trivia.jpg" style="width:100%">
+    <div class="text">Trivia Night (February 2023)</div>
+  </div>
 
-    <style>
-        * {box-sizing: border-box}
+  <div class="mySlides">
+    <img src="movienight.jpg" style="width:100%">
+    <div class="text">Outdoor Movie Night (August 2022)</div>
+  </div>
 
-        /* Container needed to position the overlay. Adjust the width as needed */
-        .container1 {
-        width: 385.83px;
-        height: 336.69px;
-        position: relative;
-        margin: auto;
-        }
+  <div class="mySlides">
+    <img src="party2.jpg" style="width:100%">
+    <div class="text">Costume Party (Halloween 2022)</div>
+  </div>
 
-        /* Make the image to responsive */
-        .image1 {
-        display: block;
-        width: 385.83px;
-        height: 336.69px;
-        margin-top: 10px;
-        }
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
 
-        /* The overlay effect - lays on top of the container and over the image */
-        .overlay1 {
-        position: absolute;
-        bottom: 0;
-        background: rgb(0, 0, 0);
-        background: rgba(0, 0, 0, 0.5); /* Black see-through */
-        color: #f1f1f1;
-        width: 390px;
-        transition: .5s ease;
-        opacity:0;
-        color: white;
-        font-size: 20px;
-        padding: 20px;
-        text-align: center;
-        }
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
 
-        /* When you mouse over the container, fade in the overlay title */
-        .container1:hover .overlay1 {
-        opacity: 1;
-        }
-    </style>
+<style>
+  * {box-sizing:border-box}
+  h2{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+  }
 
-    <div class="container">
-        <img src="disneyland1.jpg" alt="Disneyland" class="image">
-        <div class="overlay">Disneyland trip (September 2022)</div>
-    </div>
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
 
-    <style>
-        * {box-sizing: border-box}
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
 
-        /* Container needed to position the overlay. Adjust the width as needed */
-        .container {
-        position: relative;
-        width:auto;
-        height: auto;
-        }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
 
-        /* Make the image to responsive */
-        .image {
-        display: block;
-        width: 354px;
-        height: 378px;
-        margin-top: 10px;
-        }
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+  }
 
-        /* The overlay effect - lays on top of the container and over the image */
-        .overlay {
-        position: absolute;
-        bottom: 0;
-        background: rgb(0, 0, 0);
-        background: rgba(0, 0, 0, 0.5); /* Black see-through */
-        color: #f1f1f1;
-        width: 360px;
-        transition: .5s ease;
-        opacity:0;
-        color: white;
-        font-size: 20px;
-        padding: 20px;
-        text-align: center;
-        }
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
 
-        /* When you mouse over the container, fade in the overlay title */
-        .container:hover .overlay {
-        opacity: 1;
-        }
-    </style>
+  .active, .dot:hover {
+    background-color: #717171;
+  }
 
-    <div class="container3">
-        <img src="movienight.jpg" alt="Movie" class="image3">
-        <div class="overlay3">Outdoor Movie Night (August 2022)</div>
-    </div>
+</style>
 
-    <style>
-        * {box-sizing: border-box}
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
 
-        /* Container needed to position the overlay. Adjust the width as needed */
-        .container3 {
-        width: 403.2px;
-        height: 302.4px;
-        position: relative;
-        margin: auto;
-        }
+// Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
 
-        /* Make the image to responsive */
-        .image3 {
-        display: block;
-        width: 403.2px;
-        height: 302.4px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        }
+// Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
 
-        /* The overlay effect - lays on top of the container and over the image */
-        .overlay3 {
-        position: absolute;
-        bottom: 0;
-        background: rgb(0, 0, 0);
-        background: rgba(0, 0, 0, 0.5); /* Black see-through */
-        color: #f1f1f1;
-        width: 408px;
-        transition: .5s ease;
-        opacity:0;
-        color: white;
-        font-size: 20px;
-        padding: 20px;
-        text-align: center;
-        }
-
-        /* When you mouse over the container, fade in the overlay title */
-        .container3:hover .overlay3 {
-        opacity: 1;
-        }
-    </style>
-</body>
-</html>
-
-
-    
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+</script>
