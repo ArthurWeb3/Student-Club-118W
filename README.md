@@ -1,14 +1,12 @@
+# FINAL WEBSITE VERSION (May 11th, 2023) <br>
+-Download StudentClub.zip <br>
+-Begin navigation of website by running 'Homepage.html' <br>
+-Link FireBase API in 'SignUp.html' if you wish to view user data. <br>
+-This is a MOCK website, no plans to host it on any server as of now. <br>
+-Thank you! <br>
+
 # Student-Club-118W
 Included - Sitemap, 6 pages, Disney Club 
-
-CSS Info
-Font Family: 
-Margins:
-Picture Borders
-H1, H2, H3 
-
-** For content related to each page, upload the file with "_YourPage" at the end as well as initials, e.g:
-"Thumbnail_LinksPage_AT.jpg" ** 
 
 Home // Repository // AJ <br>
 - Title, Links to other in text pages (Event, Links, Gallery, Sign Up, About Us), Dashboard, Logo, Pictures, Announcements, Social Media Links  
@@ -47,4 +45,6 @@ Added Signup.js for using the database<br>
 Created real-time database in firebase.google- access via my account (Lior)<br>
 Added to the database only Lior's and AJ's info to test, will need to add the rest of the members' and potentially the professor's info to it<br> 
 
-About Us // Repository // Elias
+Team // Repository // Elias
+**(May 11th):<br>
+Finalized Team page 
