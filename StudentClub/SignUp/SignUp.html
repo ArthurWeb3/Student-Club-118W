@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJSU Disney Club</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="../Images/sjsu_disney.png" sizes="32x32">
+    <link rel="stylesheet" href="../SignUp/style_signup.css">
+</head>
+  <body>
+  <!-- Universal Navbar-->
+    <div id="headerGrid" class="" style="grid-template-rows: 32px 46px 32px 16px auto 38px;height:164px;" 
+    role="banner">
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom navbar" style="background-color: #788af3;";>
+        <a class="navbar-brand" href="../Homepage/Homepage.html">SJSU Disney Club</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="../Homepage/Homepage.html" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../Events/Events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Links/Links.html">Links</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Gallery/Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../SignUp/SignUp.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Team/Team.html">Team</a>
+            </li>
+          </ul>
+
+          <img src="../Images/sjsu_disney.png" alt="Disney Logo" height="80" class="ml-auto">
+
+        </div>
+    </nav>
+
+    </div>
+
+    <!--login part -->
+    <div class= "signupPage">
+      <div class="info">
+          <h2>Join Us Now!</h2>
+          <p>SJSU Disney Club is the best place for all Disney lovers to come together and enjoy magical events. Sign up now to stay connected!</p>
+      </div>
+
+      <div class="form">
+          <h1>Sign Up</h1> 
+          <form action="../SignUp/RegisterforSignup.html" method="post">
+                  <label>First Name</label>
+                  <input type="text" id="fname" size="30" maxlength="30" required>
+
+                  <label>Last Name</label>
+                  <input type="text" id="lname" size="30" maxlength="30" required>
+
+                  <label>Phone Number</label>
+                  <input type="tel" id= "phone" placeholder="(000) 000-0000" required>
+                      
+                  <label>Email</label>
+                  <input type="email" id="email" placeholder="name@domain.com"  size="30" maxlength="30" required >
+                  
+                  <button onclick="send()">Sign Up</button>
+                      
+          </form>
+      </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+  <script src="signup.js"></script>
+
+  <style>
+      .signupPage{
+          display: flex;
+          align-items: center; 
+      }
+
+      h1{
+          font-size: 36px;
+      }
+      .info{
+          padding: 40px;
+          margin-right: 200px;
+          margin-left: 30px;
+          width: 450px;
+          text-align:justify;
+      }
+      .form{
+          padding: 40px;
+          position: relative;
+          width: 500px;
+          }
+
+      label{
+          color: white;
+          padding: 15px 10px 2px 0px;
+          display: block; 
+          font-size: 14pt;
+      }
+
+      input{
+          display: block;
+          width: 450px;
+          padding: 3px;
+          font-size: 12pt;
+          position: center;
+          text-align: left;
+          background-color: rgb(240, 240, 240);
+      }
+
+      button{
+          color:black;
+          padding: 10px 10px;
+          text-align: center;
+          display: inline-block;
+          font-size: 14pt;
+          margin: 25px;
+          cursor: pointer;
+          width: 120px;
+          border-radius: 5px;
+          border-color: black;
+      }
+  </style>
+</body>
+</html>
+</body>
+
+</html>
