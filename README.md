@@ -34,7 +34,7 @@ Links // Repository // Brandon
 Gallery // Repository // Lior <br>
 ** (May 1):<br>
 Added gallery.html with css adn JS<br>
-Couldn't figure out slide show so I just did few pictures with overlay title wuth caption & date
+Slideshow with caption & date for each picture
 Added gallery folder with the 4 pictures I used
 
 Sign Up // Repository // Lior <br>
